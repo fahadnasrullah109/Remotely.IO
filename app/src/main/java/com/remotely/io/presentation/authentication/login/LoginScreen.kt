@@ -350,8 +350,7 @@ fun LoginScreenContent(
                         text = stringResource(id = R.string.label_login_forgot_password),
                         style = TextStyle(color = textGrayColor),
                         fontFamily = soraFamily,
-                        fontSize = 18.sp,
-                        modifier = Modifier.clickable(onClick = onRegisterTap)
+                        fontSize = 18.sp
                     )
                 }
                 Spacer(

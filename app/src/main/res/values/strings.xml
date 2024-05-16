@@ -29,4 +29,7 @@
     <string name="label_register_with_google">Sign Up with Google</string>
     <string name="label_register_with_facebook">Sign Up with Facebook</string>
     <string name="label_register_phone_number">Phone number</string>
+    <string name="label_forgot_password_title">Forgot Password?</string>
+    <string name="label_forgot_password_description">Enter your email address</string>
+    <string name="label_done">Done</string>
 </resources>
