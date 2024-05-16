@@ -26,7 +26,7 @@ object AppUri {
 fun RemotelyIONavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = Destinations.Register.route
+    startDestination: String = Destinations.Splash.route
 ) {
     NavHost(
         modifier = modifier,
