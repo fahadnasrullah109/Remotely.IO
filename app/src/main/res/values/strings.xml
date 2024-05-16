@@ -14,4 +14,9 @@
     <string name="label_login_with_google">Login with Google</string>
     <string name="label_login_with_facebook">Login with Facebook</string>
     <string name="label_or">OR</string>
+    <string name="label_browse_shops">Browse Shop</string>
+    <string name="label_introduction_title">Remotely.io</string>
+    <string name="label_introduction_welcome">Welcome</string>
+    <string name="label_introduction_description">We serve you with the best gadgets for your home workspace</string>
+    <string name="label_introduction_login">Log In</string>
 </resources>

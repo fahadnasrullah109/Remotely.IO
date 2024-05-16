@@ -122,7 +122,7 @@ fun NavGraphBuilder.introductionGraph(navController: NavController, route: Strin
         IntroductionScreen(
             modifier = Modifier.fillMaxSize(),
             viewModel = hiltViewModel(),
-            onGetStarted = {
+            onLogin = {
                 navController.navigate(route = "$uri/${Destinations.Login.route}") {
                     popUpTo("$uri/${Destinations.Introduction.route}") {
                         inclusive = true
