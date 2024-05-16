@@ -16,7 +16,7 @@ import com.remotely.io.theme.RemotelyIOTheme
 import com.remotely.io.theme.soraFamily
 
 @Composable
-fun CoffeeButton(
+fun AppButton(
     modifier: Modifier = Modifier, buttonTitle: String, onTap: () -> Unit, isEnabled: Boolean = true
 ) {
     Button(
@@ -29,8 +29,7 @@ fun CoffeeButton(
             text = buttonTitle,
             style = TextStyle(
                 fontSize = 18.sp,
-                fontWeight = FontWeight.SemiBold,
-                color = Color.White,
+                color = Color.Black,
                 fontFamily = soraFamily
             ),
         )
@@ -41,7 +40,7 @@ fun CoffeeButton(
 @Composable
 private fun CoffeeButtonPreview() {
     RemotelyIOTheme {
-        CoffeeButton(
+        AppButton(
             buttonTitle = "GetStarted",
             onTap = {},
         )

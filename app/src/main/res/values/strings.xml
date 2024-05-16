@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">RemotelyIO</string>
+    <string name="label_login_title">Welcome Back</string>
+    <string name="label_login_email_address">Email address</string>
+    <string name="label_login_password">Password</string>
+    <string name="label_login_login">Login</string>
+    <string name="label_login_forgot_password">Forgot password?</string>
+    <string name="label_login_new_member">New member?</string>
+    <string name="email_error">Invalid email</string>
+    <string name="empty_email_error">Please fill out your email</string>
+    <string name="password_error">Invalid password</string>
+    <string name="empty_password_error">Please fill out your password</string>
+    <string name="label_login_register">Sign up</string>
+    <string name="label_login_with_google">Login with Google</string>
+    <string name="label_login_with_facebook">Login with Facebook</string>
+    <string name="label_or">OR</string>
 </resources>
