@@ -26,7 +26,7 @@ object AppUri {
 fun RemotelyIONavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = Destinations.Splash.route
+    startDestination: String = Destinations.Register.route
 ) {
     NavHost(
         modifier = modifier,
@@ -93,8 +93,7 @@ fun NavGraphBuilder.registerGraph(navController: NavController, route: String) {
             },
             onLoginTap = {
                 navController.navigateUp()
-            },
-            onTermsTap = {},
+            }
         )
     }
 }

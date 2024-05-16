@@ -249,19 +249,20 @@ fun LoginScreenContent(
             )
             Spacer(modifier = Modifier.height(20.dp))
 
-            OutlinedTextField(value = uiState.email, leadingIcon = {
-                Icon(
-                    Icons.Filled.Email,
-                    contentDescription = null
-                )
-            }, onValueChange = {
-                onEmailChanged.invoke(it)
-            }, label = {
-                Text(text = stringResource(id = R.string.label_login_email_address))
-            }, keyboardOptions = KeyboardOptions.Default.copy(
-                keyboardType = KeyboardType.Email,
-                imeAction = ImeAction.Next,
-            ), modifier = Modifier.fillMaxWidth(), isError = uiState.emailError != null
+            OutlinedTextField(value = uiState.email,
+                singleLine = true, leadingIcon = {
+                    Icon(
+                        Icons.Filled.Email,
+                        contentDescription = null
+                    )
+                }, onValueChange = {
+                    onEmailChanged.invoke(it)
+                }, label = {
+                    Text(text = stringResource(id = R.string.label_login_email_address))
+                }, keyboardOptions = KeyboardOptions.Default.copy(
+                    keyboardType = KeyboardType.Email,
+                    imeAction = ImeAction.Next,
+                ), modifier = Modifier.fillMaxWidth(), isError = uiState.emailError != null
             )
 
             uiState.emailError?.let {
@@ -272,7 +273,7 @@ fun LoginScreenContent(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            OutlinedTextField(value = uiState.password, leadingIcon = {
+            OutlinedTextField(value = uiState.password, singleLine = true, leadingIcon = {
                 Icon(
                     Icons.Filled.Lock,
                     null
