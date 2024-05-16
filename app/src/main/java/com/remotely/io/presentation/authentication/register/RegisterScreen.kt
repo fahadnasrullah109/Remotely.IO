@@ -2,6 +2,7 @@ package com.remotely.io.presentation.authentication.register
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -66,6 +67,7 @@ import com.remotely.io.R
 import com.remotely.io.components.AppButton
 import com.remotely.io.components.AppErrorText
 import com.remotely.io.theme.RemotelyIOTheme
+import com.remotely.io.theme.appBgColor
 import com.remotely.io.theme.soraFamily
 import com.remotely.io.theme.textAppRed
 import com.remotely.io.theme.textGrayColor
@@ -123,6 +125,7 @@ private fun RegisterScreenContent(
         var showPassword by remember { mutableStateOf(value = false) }
         Column(
             modifier = modifier
+                .background(color = appBgColor)
                 .fillMaxSize()
                 .padding(contentPaddings)
                 .padding(
