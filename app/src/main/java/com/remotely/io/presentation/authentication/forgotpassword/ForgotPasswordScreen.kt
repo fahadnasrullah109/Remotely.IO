@@ -44,6 +44,7 @@ import com.remotely.io.R
 import com.remotely.io.components.AppButton
 import com.remotely.io.components.AppErrorText
 import com.remotely.io.theme.RemotelyIOTheme
+import com.remotely.io.theme.appBgColor
 import com.remotely.io.theme.soraFamily
 import com.remotely.io.theme.textGrayColor
 import com.remotely.io.theme.textTitleColor
@@ -87,7 +88,7 @@ private fun ForgotPasswordScreenContent(
         val keyboardController = LocalSoftwareKeyboardController.current
         val focusManager = LocalFocusManager.current
         Column(
-            modifier = modifier
+            modifier = modifier.background(color = appBgColor)
                 .fillMaxSize()
                 .background(color = Color.White)
                 .padding(contentPaddings)
