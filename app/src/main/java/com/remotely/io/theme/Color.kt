@@ -60,6 +60,9 @@ val inverseOnSurfaceDark = Color(0xFF313128)
 val inversePrimaryDark = Color(0xFF5E6300)
 
 val appBgColor = Color(0xFFF9F9F9)
+val textTitleColor = Color(0xFF000000)
+val textGrayColor = Color(0xFFA9A9A9)
+val textAppRed = Color(0xFFBA5C3D)
 
 
 
