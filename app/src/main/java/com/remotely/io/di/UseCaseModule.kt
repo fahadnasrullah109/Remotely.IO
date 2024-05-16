@@ -7,6 +7,7 @@ import com.remotely.io.domain.usecases.LoginUseCase
 import com.remotely.io.domain.usecases.LogoutUseCase
 import com.remotely.io.domain.usecases.MarkIntroductionShownUseCase
 import com.remotely.io.domain.usecases.PasswordValidationUseCase
+import com.remotely.io.domain.usecases.PhoneValidationUseCase
 import com.remotely.io.domain.usecases.RegisterUseCase
 import com.remotely.io.domain.usecases.ShowIntroductionDecisionUseCase
 import dagger.Module
@@ -27,6 +28,10 @@ class UseCaseModule {
     @ViewModelScoped
     @Provides
     fun provideEmailValidationUseCase() = EmailValidationUseCase()
+
+    @ViewModelScoped
+    @Provides
+    fun providePhoneValidationUseCase() = PhoneValidationUseCase()
 
     @ViewModelScoped
     @Provides

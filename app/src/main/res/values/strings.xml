@@ -9,6 +9,8 @@
     <string name="email_error">Invalid email</string>
     <string name="empty_email_error">Please fill out your email</string>
     <string name="password_error">Invalid password</string>
+    <string name="empty_phone_error">Please fill out your phone</string>
+    <string name="phone_error">Invalid phone number</string>
     <string name="empty_password_error">Please fill out your password</string>
     <string name="label_login_register">Sign up</string>
     <string name="label_login_with_google">Login with Google</string>
@@ -19,4 +21,12 @@
     <string name="label_introduction_welcome">Welcome</string>
     <string name="label_introduction_description">We serve you with the best gadgets for your home workspace</string>
     <string name="label_introduction_login">Log In</string>
+    <string name="label_register_title1">Welcome to</string>
+    <string name="label_register_title2">Remotely.io</string>
+    <string name="label_register_login">Login</string>
+    <string name="label_register_create_account">Create your account</string>
+    <string name="label_register">Sign Up</string>
+    <string name="label_register_with_google">Sign Up with Google</string>
+    <string name="label_register_with_facebook">Sign Up with Facebook</string>
+    <string name="label_register_phone_number">Phone number</string>
 </resources>
